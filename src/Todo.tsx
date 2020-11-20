@@ -3,9 +3,9 @@ import React from 'react';
 export const TodoList = (props: {}) => {
     return (
         <div>
-            <TodoItem text='B'/>
             <TodoItem text='A'/>
             <TodoItem text='B'/>
+            <TodoItem text='C'/>
         </div>
     );
 };
